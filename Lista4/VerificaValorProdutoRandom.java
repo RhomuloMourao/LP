@@ -8,8 +8,8 @@ public class VerificaValorProdutoRandom {
 	
 	public static void main (String[] args) {
 				
-		int precoProduto1 = (int) (Math.random() * 1000);
-		int precoProduto2 = (int) (Math.random() * 1000);
+		int precoProduto1 = (int) (Math.random() * 1000)+1;
+		int precoProduto2 = (int) (Math.random() * 1000)+1;
 	
 		System.out.println("Preco do primeiro produto:" + precoProduto1);	
 		System.out.println("Preco do segundo produto:" + precoProduto2);

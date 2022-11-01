@@ -24,12 +24,12 @@ public class Ex9Lista5 {
 			
 			}else{
 		
-		if(horastrabalhadas <= 40){
+		if(horastrabalhadas <= 160){
 			
 			System.out.println("Seu salario e de: " + (horastrabalhadas * salarioporhora));
 			
 			}else{
-				System.out.println("Seu salario e de: " + ((salarioporhora * 40) + (horastrabalhadas - 40) * salarioporhora * 1.5));
+				System.out.println("Seu salario e de: " + ((salarioporhora * 160) + (horastrabalhadas - 160) * salarioporhora * 1.5));
 				}
 		
 	}

@@ -20,7 +20,7 @@ public class Ex32Lista6 {
 			
 			if(termos == 0){
 				
-				System.out.println("FDime do programa");
+				System.out.println("Fim do programa");
 				}
 			if(termos < 0){
 				
